@@ -78,6 +78,7 @@ body {
 
 .list-item:hover .likes {
   color: #7C7C7C;
+  transition: color, 1.5s;
 }
 
 .likes i {
@@ -106,9 +107,19 @@ body {
 /* Desktop PC's */
 
 @media screen and (min-width: 1400px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  .likes i {
+    font-size: 12px;
+  }
+
   .container {
     margin: 100px auto;
   }
+
 
   .image img {
     height: 220px;
